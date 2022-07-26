@@ -1,0 +1,40 @@
+.Post {
+    width:85%;
+    background-color: var(--cardBg);
+    border-radius: 10px;
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.haiku {
+    background-color: honeydew;
+    padding:25px 10px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.haiku img {
+    max-width:500px;
+    object-fit: cover;
+}
+.reaction {
+    display: flex;
+    justify-content: space-between;
+    width:20%;
+}
+
+.reactionLikes, .reactionComments {
+    text-align: center;
+}
+
+.reactionLikes p:nth-child(3), 
+.reactionComments  p:nth-child(3)
+{
+    font-size:12px
+}

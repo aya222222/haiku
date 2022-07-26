@@ -1,0 +1,61 @@
+.ProfileCard {
+    border-radius: 20px;
+    background-color:var(--cardBg);
+    overflow-x: clip;
+}
+.profileImages {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.profileImages > img:nth-child(1) {
+
+ width:100%;
+}
+
+.profileImages > img:nth-child(2) {
+    width: 20%;
+    border-radius: 50%; 
+    position: absolute;
+    left:50%;
+    bottom: -20%;
+    transform: translate(-50%);
+
+}
+
+.profileName {
+    margin-top: 2rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProfileCard hr {
+    width: 90%;
+    border: 1px solid gray;
+    /* margin-top: 20px; */
+    margin: 20px auto;
+}
+
+.followStatus {
+    margin: 10px;
+    display:flex;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+
+    padding:10px;
+    
+}
+
+.vl {
+   
+    border-left: 2px solid gray;
+   
+}
+
