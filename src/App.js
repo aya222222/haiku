@@ -7,12 +7,14 @@ import Footer from './Footer';
 import {useState, useEffect} from 'react';
 import apiRequest from './apiRequest';
 import Home from './pages/home/Home';
+
 function App() {
  
 
   return (
     <div className="App">
        <Home />
+    
     
     </div>
   );

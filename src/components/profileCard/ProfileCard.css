@@ -43,14 +43,10 @@
 }
 
 .followStatus {
-    margin: 10px;
     display:flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 5px;
     text-align: center;
-
-    padding:10px;
-    
 }
 
 .vl {
